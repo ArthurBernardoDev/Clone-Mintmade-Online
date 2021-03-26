@@ -1,0 +1,37 @@
+/* section 2 */
+.container2 {
+  height: 100vh;
+  background-color: #0f0e0c;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
+.container2 section:nth-child(1) {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 3px solid #f2eddb;
+}
+.container2 section:nth-child(2) {
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container2 section h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  width: calc(100% - 300px);
+  color: #846e58;
+}
+.container2 section:nth-child(1) span {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #846e58;
+}
+.container2 section:nth-child(2) img {
+  width: 50%;
+}
